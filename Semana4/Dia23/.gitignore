@@ -1,0 +1,62 @@
+# ─────────────────────────────────────────────
+# Terraform
+# ─────────────────────────────────────────────
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+terraform.tfvars
+terraform.tfplan
+.terraform.lock.hcl
+
+# ─────────────────────────────────────────────
+# Docker
+# ─────────────────────────────────────────────
+*.log
+*.pid
+docker-compose.override.yml
+
+# Evitar subir volúmenes montados
+volumes/
+data/
+pgdata/
+redisdata/
+
+# ─────────────────────────────────────────────
+# Archivos temporales del sistema
+# ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# ─────────────────────────────────────────────
+# Archivos de sistema Linux/IDE
+# ─────────────────────────────────────────────
+*~
+*.swp
+*.swo
+*.bak
+
+# VSCode
+.vscode/
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos grandes accidentalmente cacheados
+*.zip
+*.tar.gz
+*.tgz
+
+# Git sensitive folders
+.env
+.env.*
+.envrc

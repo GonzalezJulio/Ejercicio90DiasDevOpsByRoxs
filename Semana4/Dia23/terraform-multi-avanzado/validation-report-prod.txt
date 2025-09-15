@@ -1,0 +1,14 @@
+VALIDATION REPORT for prod
+================================
+
+CIDR block: 10.0.0.0/16
+VPC name: subnet-prod
+
+Validations:
+    ✅ cidr_mask_valid
+    ❌ name_unique
+    ✅ prod_cidr_ok
+
+Overall: ❌ FAILED
+
+    ⚠️ Please review and fix the failed validations before deployment.

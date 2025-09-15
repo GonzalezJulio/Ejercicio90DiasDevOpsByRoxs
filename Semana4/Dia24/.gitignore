@@ -1,0 +1,26 @@
+# Ignorar todos los archivos de estado de Terraform
+**/terraform.tfstate
+**/terraform.tfstate.backup
+
+# Ignorar archivos de variables sensibles
+**/terraform.tfvars
+
+# Ignorar archivos generados en soluciones
+terraform-challenges/solutions/
+
+# Ignorar carpetas de salida generadas por los desafíos
+**/environments/
+**/outputs/
+**/*.json
+
+# Archivos de salida temporales o logs
+*.log
+*.out
+
+# Archivos de backup comunes
+*~
+*.bak
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db

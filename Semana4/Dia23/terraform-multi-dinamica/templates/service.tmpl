@@ -1,0 +1,16 @@
+service:
+  name: ${name}
+  app: ${app_name}
+  environment: ${environment}
+  language: ${language}
+  memory: ${memory_mb}MB
+  port: ${port}
+  health_check: ${health_path}
+  env:
+%{ for k, v in env_vars ~}
+    ${k}: "${v}"
+%{ endfor ~}
+  tags:
+%{ for k, v in tags ~}
+    ${k}: "${v}"
+%{ endfor ~}

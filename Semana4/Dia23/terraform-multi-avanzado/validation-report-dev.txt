@@ -1,0 +1,13 @@
+VALIDATION REPORT for dev
+================================
+
+CIDR block: 10.20.0.0/16
+VPC name: dev-vpc
+
+Validations:
+    ✅ cidr_mask_valid
+    ✅ name_unique
+    ✅ prod_cidr_ok
+
+Overall: ✅ PASSED
+

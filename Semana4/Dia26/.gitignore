@@ -1,0 +1,27 @@
+# Terraform
+**/.terraform/*
+**/.terraform.lock.hcl
+terraform.tfstate.d/
+
+# Archivos de estado
+*.tfstate
+*.tfstate.backup
+
+# Planes de ejecución
+*.tfplan
+
+# Archivos de salida generados
+*.out
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de credenciales
+.terraformrc
+terraform.rc
